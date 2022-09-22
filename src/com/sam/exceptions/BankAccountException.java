@@ -138,46 +138,46 @@ public class BankAccountException {
         }
     }
 
-//    public static void main(String[] args) {
-//        BankAccountException account = new BankAccountException("null",123456,8000.0);
-//        try{
-//            account.checkName();
-//        } catch(NullNameException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        try{
-//            account.checkAccountNumber();
-//        } catch(InvalidAccountNumberException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        try{
-//            account.checkBalance();
-//        } catch(InvalidBalanceException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        try{
-//            account.deposit(-10.9);
-//        } catch(NegativeDepositException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        try{
-//            account.withDraw(12000);
-//        } catch(CanNotWithdrawException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        try{
-//            account.checkLoan();
-//        } catch(CanNotLoanException e)
-//        {
-//            System.out.println("Exception Occured :-"+e.getMessage());
-//        }
-//        finally{
-//            System.out.println("Sesh!!!!");
-//        }
-//    }
+    public static void main(String[] args) {
+        BankAccountException account = new BankAccountException("null",123456,8000.0);
+        try{
+            account.checkName();
+        } catch(NullNameException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        try{
+            account.checkAccountNumber();
+        } catch(InvalidAccountNumberException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        try{
+            account.checkBalance();
+        } catch(InvalidBalanceException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        try{
+            account.deposit(-10.9);
+        } catch(NegativeDepositException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        try{
+            account.withDraw(12000);
+        } catch(CanNotWithdrawException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        try{
+            account.checkLoan();
+        } catch(CanNotLoanException e)
+        {
+            System.out.println("Exception Occured :-"+e.getMessage());
+        }
+        finally{
+            System.out.println("Sesh!!!!");
+        }
+    }
 }
